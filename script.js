@@ -1,0 +1,1 @@
+document.querySelectorAll('.card,.portfolio').forEach((e,i)=>{e.style.opacity=0;e.style.transform='translateY(20px)';setTimeout(()=>{e.style.transition='.6s';e.style.opacity=1;e.style.transform='translateY(0)'},150*i);});
